@@ -1,0 +1,37 @@
+@import "null.css";
+
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;400;700;900&display=swap');
+/*===============================*/
+
+.block {
+	font-family: 'Arima Madurai', cursive;
+	font-weight: 400;
+	font-size: 34px;
+	max-width: 444px;
+	height: 444px;
+	background: rgb(116,153,63);
+	background: linear-gradient(135deg, rgba(116,153,63,1) 0%, rgba(101,226,75,1) 35%, rgba(219,255,0,1) 100%);
+	text-shadow: 2px 2px 5px #B2FFB0;
+	color: #013B06;
+	border-radius: 20px;
+	border: 20px dotted #011E06;
+}
+
+.container {
+  display:inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border-radius:3px;
+
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='white' stroke-width='4' stroke-dasharray='30' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+border-radius: 10px;
+  background:
+   linear-gradient(#fff,#fff) padding-box /* Don't extend this to border */,
+   linear-gradient(to bottom, #4fc3f7, #ab5ca4 49%, #ff512f) border-box; /*Border-box is not need as it's the default value*/
+}
